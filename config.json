@@ -1,0 +1,43 @@
+{
+  "network": {
+    "use_lan_mode": false,
+    "on_foot_sync_rate": 40,
+    "in_vehicle_sync_rate": 40,
+    "aiming_sync_rate": 10,
+    "stream_radius": 300.0,
+    "stream_rate": 1000,
+    "acks_limit": 20000,
+    "message_hole_limit": 20000,
+    "bind": "127.0.0.1",
+    "port": 7777
+  },
+  "name": "VOSTOK RP",
+  "pawn": {
+    "main_scripts": [
+      "perfect"
+    ],
+    "side_scripts": [],
+    "legacy_plugins": [
+      "crashdetect",
+      "sscanf",
+      "streamer",
+      "mysql",
+      "TOTP",
+      "timerfix",
+      "ColAndreas"
+    ]
+  },
+  "announce": false,
+  "enable_query": true,
+  "website": "youtube.com",
+  "max_bots": 0,
+  "language": "Russia",
+  "game": {
+    "lag_compensation_mode": 0
+  },
+  "rcon": {
+    "enable": true,
+    "password": "SODSKDOvjcv8jdasjkdASJ8fdsgDKOSDKOOSKpdaspodifjopijsodaijf"
+  },
+  "max_players": 50
+}
